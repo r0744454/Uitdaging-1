@@ -1,6 +1,7 @@
 /* stijlregels die voor beide errorpagina's gelden */
 body {
     font-family: sans-serif;
+    
 }
 
 @media screen and (min-width: 800px) {
@@ -8,3 +9,5 @@ body {
         font-size: 2em;
     }
 }
+
+
