@@ -1,1 +1,26 @@
 /* specifieke stijlregels voor 404-pagina */
+body {
+    color: black;
+    background-color: #909b6f;
+    background-image: url(../afbeeldingen/blur-close-up-conceptual-1194775.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+h1 {
+    font-family: 'Crete Round', serif;
+    color:black;
+    font-size: 6em;
+    text-align: center;
+}
+p{
+    font-size: 2em;
+    font-family: 'Crete Round', serif;
+    float:none;
+    color:black;
+    text-align: center;
+}
+i {
+    font-size: 140px;
+}

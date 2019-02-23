@@ -12,11 +12,11 @@ h1 {
     font-family: 'Crete Round', serif;
     color:azure;
     font-size: 5em;
-    float: left;
+    text-align: left;
 }
 p{
-    font-size: 4em;
+    font-size: 2em;
     font-family: 'Crete Round', serif;
-    float:left;
     color: azure;
+    text-align: left;
 }
