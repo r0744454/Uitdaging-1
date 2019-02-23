@@ -2,14 +2,21 @@
 body {
     color: black;
     background-color: #909b6f;
-    background-image: url(../afbeeldingen/Foto-403-pagina.jpg);
+    background-image: url(../afbeeldingen/automobile-fast-number-248747.jpg);
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
     text-align: center;
 }
-h1, p {
-    font-family: 'Sriracha', cursive;
-    color:black;
-    font-size: 2em;
+h1 {
+    font-family: 'Crete Round', serif;
+    color:azure;
+    font-size: 5em;
+    float: left;
+}
+p{
+    font-size: 4em;
+    font-family: 'Crete Round', serif;
+    float:left;
+    color: azure;
 }
