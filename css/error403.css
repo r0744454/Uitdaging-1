@@ -8,34 +8,14 @@
         background-attachment: fixed;
         background-size: cover;
         text-align: center;
+        color: whitesmoke;
     }
 
-    h1 {
-        font-family: 'Crete Round', serif;
-        color: azure;
-        font-size: 5em;
-        text-align: left;
-    }
-
-    p {
-        font-size: 2em;
-        font-family: 'Crete Round', serif;
-        color: azure;
-        text-align: left;
-    }
-
-    i {
-        font-size: 0.85em;
-    }
-
-    #permission {
-        font-size: 1em;
-    }
+}
 
 
     @media screen and (max-width: 800px) {
         body {
-            font-size: 2em;
             color: black;
             background-color: #909b6f;
             background-image: url(../afbeeldingen/Foto403.jpg);
@@ -43,6 +23,23 @@
             background-attachment: fixed;
             background-size: cover;
             text-align: center;
-
+            color:black
         }
+    }
+h1 {
+        font-family: 'Roboto Slab', serif;
+        font-size: 5em;
+        text-align: left;
+    }
+
+    p {
+        font-size: 2em;
+        font-family: 'Roboto Slab', serif;
+        text-align: left;
+    }
+
+
+
+    #permission {
+        font-size: 1em;
     }

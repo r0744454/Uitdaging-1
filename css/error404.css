@@ -1,26 +1,38 @@
 /* specifieke stijlregels voor 404-pagina */
+@media screen and (max-width: 800px) {
 body {
-    color: black;
     background-color: #909b6f;
-    background-image: url(../afbeeldingen/blur-close-up-conceptual-1194775.jpg);
+    background-image: url(../afbeeldingen/foto404.jpg);
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
     text-align: center;
+    color: whitesmoke;
+}
+}
+@media screen and (min-width: 800px) {
+body{
+    background-color: #909b6f;
+    background-image: url(../afbeeldingen/klein404.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    color: whitesmoke;
+    }
 }
 h1 {
-    font-family: 'Crete Round', serif;
-    color:black;
+    font-family: 'Luckiest Guy', cursive;
     font-size: 6em;
     text-align: center;
 }
 p{
     font-size: 2em;
-    font-family: 'Crete Round', serif;
+    font-family: 'Luckiest Guy', cursive;
     float:none;
-    color:black;
     text-align: center;
 }
-i {
-    font-size: 140px;
-}
+
+
+
+   
