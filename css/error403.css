@@ -44,3 +44,38 @@ h1 {
         font-size: 1em;
     }
 
+.button {
+    display: inline-block;
+    margin-bottom: .5rem;
+    padding: .5rem 2.5rem;
+    border: 2px solid #6E6E6E;
+    border-radius: 0;
+    background-color: #6E6E6E;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: inherit;
+    transition: all 1s ease
+}
+
+
+.button.button--secondary:hover,
+.button.button--secondary:focus,
+.button.button--secondary:active
+.button.button--secondary:visited
+.button.button--secondary:link{
+    border-color: #193e2d;
+    background-color: #2e7555;
+    color: #fff
+}
+
+a:hover,
+a:focus,
+a:active 
+a:visited, 
+a:link{
+
+    color: #004b8d;
+    text-decoration: none;
+}
+
